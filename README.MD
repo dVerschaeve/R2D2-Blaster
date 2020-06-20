@@ -1,6 +1,6 @@
 ﻿# R2D2-Blaster
  
-An IR blaster to control my Mitsubish Airco unit in my Office via MQTT. To have it blend in, I've used a R2D2 USB vacuum cleaner to hide the circuits. The location for the power LED was used to place the IR LED and I've installed a DHT11 temperature sensor at the air vent.
+An IR blaster to control my Mitsubishi Airco unit in my Office via MQTT. To have it blend in, I've used a R2D2 USB vacuum cleaner to hide the circuits. The location for the power LED was used to place the IR LED and I've installed a DHT11 temperature sensor at the air vent.
  
  <img src="https://github.com/dVerschaeve/R2D2-Blaster/blob/master/Res/R2D2%20IR%20Blaster.jpg" width="200" />
 
