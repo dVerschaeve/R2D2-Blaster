@@ -1,5 +1,5 @@
 //Rename to conf.h
-#define CONFIG_DEVICE_ID "NRSOffice"
+#define CONFIG_DEVICE_ID "R2D2Airco"
 
 #define CONFIG_DHTPIN 5     // what digital pin we're connected to
 #define CONFIG_DHTTYPE DHT11   
