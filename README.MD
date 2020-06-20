@@ -2,7 +2,7 @@
  
 An IR blaster to control my Mitsubish Airco unit in my Office via MQTT. To have it blend in, I've used a R2D2 USB vacuum cleaner to hide the circuits. The location for the power LED was used to place the IR LED and I've installed a DHT11 temperature sensor at the air vent.
  
- ![R2D2](Res/R2D2 IR Blaster.jpg)
+ ![R2D2](https://github.com/dVerschaeve/R2D2-Blaster/blob/master/Res/R2D2%20IR%20Blaster.jpg | width=50)
 
 ## Bill of Material
 * Wemos D1 Mini
@@ -14,7 +14,7 @@ An IR blaster to control my Mitsubish Airco unit in my Office via MQTT. To have 
 * R2-D2 Desktop Vacuum
 * Wires
 
-##Schematic
+## Schematic
 ![Schematic](Res/Schematic.png)
 
 ## Home Assistant Configuration
