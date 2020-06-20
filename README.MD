@@ -22,19 +22,20 @@ An IR blaster to control my Mitsubishi Airco unit in my Office via MQTT. To have
 To control the airco unit from Home Assistant, i've added the following YAML into my configuration file.
 
 ```yaml
-- platform: mqtt
-  name: Office
-  modes:
-    - "off"
-    - "cool"
-    - "heat"
-  mode_command_topic: "climate/R2D2/mode/set"
-  mode_state_topic: "climate/R2D2/mode/state"
-  temperature_command_topic: "climate/R2D2/temperature/set"
-  temperature_state_topic: "climate/R2D2/temperature/state"
-  current_temperature_topic: "climate/R2D2/temperature/sensor"
-  current_temperature_template: "{{ value_json.Temperature }}"
-  initial: 21
-  max_temp: 31
-  min_temp: 16
+climate:
+ - platform: mqtt
+   name: Office
+   modes:
+     - "off"
+     - "cool"
+     - "heat"
+   mode_command_topic: "climate/R2D2/mode/set"
+   mode_state_topic: "climate/R2D2/mode/state"
+   temperature_command_topic: "climate/R2D2/temperature/set"
+   temperature_state_topic: "climate/R2D2/temperature/state"
+   current_temperature_topic: "climate/R2D2/temperature/sensor"
+   current_temperature_template: "{{ value_json.Temperature }}"
+   initial: 21
+   max_temp: 31
+   min_temp: 16
 ```
